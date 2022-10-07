@@ -12,7 +12,7 @@ exports.doLogin = (userdata) => {
         }
         else{
             response.status = true
-            response.user = userdata.email
+            response.user =result.name
         }
         resolve(response)
 
